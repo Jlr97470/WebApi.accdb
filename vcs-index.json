@@ -1,0 +1,274 @@
+﻿{
+  "Info": {
+    "Class": "clsVCSIndex",
+    "Description": "Version Control System Index"
+  },
+  "Items": {
+    "MergeBuildDate": null,
+    "FullBuildDate": null,
+    "ExportDate": "2025-11-15T03:50:21.000Z",
+    "FullExportDate": "2025-11-15T03:50:21.000Z",
+    "OptionsHash": "397c939",
+    "LastMergedCommit": "",
+    "Components": {
+      "DB Connections": {
+        "db-connection.json": {
+        }
+      },
+      "DB Properties": {
+        "dbs-properties.json": {
+          "FileHash": "28771cb",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "96e296a"
+        }
+      },
+      "Doc Properties": {
+        "documents.json": {
+          "FileHash": "93083c6",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3c5b9c9"
+        }
+      },
+      "Forms": {
+        "Actor.bas": {
+          "FileHash": "6b7338e",
+          "OtherHash": "ef693ac",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "51e455a"
+        },
+        "ActorNET.bas": {
+          "FileHash": "41f0520",
+          "OtherHash": "2246207",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "65f4947"
+        },
+        "ChatGPT.bas": {
+          "FileHash": "e8dbe01",
+          "OtherHash": "1fdc24b",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "3eb8e7d"
+        },
+        "CityWeather.bas": {
+          "FileHash": "08115c0",
+          "OtherHash": "c7aa723",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "947dd15"
+        },
+        "Currency.bas": {
+          "FileHash": "0f020d9",
+          "OtherHash": "030faff",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "218b9eb"
+        },
+        "Giphy.bas": {
+          "FileHash": "86c403a",
+          "OtherHash": "31b5505",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "c039571"
+        },
+        "Language.bas": {
+          "FileHash": "e804060",
+          "OtherHash": "27f68ba",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "53dc899"
+        },
+        "Products.bas": {
+          "FileHash": "38a1f86",
+          "OtherHash": "9a68e6e",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "830f1a4"
+        }
+      },
+      "Hidden Attributes": {
+        "hidden-attributes.json": {
+        }
+      },
+      "Modules": {
+        "ActorApi.bas": {
+          "FileHash": "f0094c4",
+          "OtherHash": "196c040",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8c384c7"
+        },
+        "ActorApiNET.bas": {
+          "FileHash": "d634149",
+          "OtherHash": "4cde63e",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "38b2793"
+        },
+        "ChatGPTApi.bas": {
+          "FileHash": "997f83c",
+          "OtherHash": "f24e483",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8d12601"
+        },
+        "CurrencyApi.bas": {
+          "FileHash": "209f257",
+          "OtherHash": "e05150f",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "1512802"
+        },
+        "GiphyApi.bas": {
+          "FileHash": "cb50e41",
+          "OtherHash": "f609b7b",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9d02485"
+        },
+        "IWebAuthenticator.cls": {
+          "FileHash": "1262c8b",
+          "OtherHash": "d440c4c",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "35e5ac6"
+        },
+        "LanguageApi.bas": {
+          "FileHash": "0aa32ff",
+          "OtherHash": "ee823aa",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2a40610"
+        },
+        "ProductsApi.bas": {
+          "FileHash": "1ee3257",
+          "OtherHash": "26a4178",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "bfb402e"
+        },
+        "WeatherApi.bas": {
+          "FileHash": "1809603",
+          "OtherHash": "8937df9",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "99931cd"
+        },
+        "Web.bas": {
+          "FileHash": "c941911",
+          "OtherHash": "c66fa8f",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "0003133"
+        },
+        "WebClient.cls": {
+          "FileHash": "2feae31",
+          "OtherHash": "1943887",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "6f1cece"
+        },
+        "WebHelpers.bas": {
+          "FileHash": "e9882b5",
+          "OtherHash": "7b54d79",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5d58294"
+        },
+        "WebJson.cls": {
+          "FileHash": "0379e64",
+          "OtherHash": "5994f6e",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d4852f0"
+        },
+        "WebRequest.cls": {
+          "FileHash": "11320c4",
+          "OtherHash": "a881f00",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "67f0b1c"
+        },
+        "WebResponse.cls": {
+          "FileHash": "ecd92af",
+          "OtherHash": "d71d76e",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b1c8eb8"
+        }
+      },
+      "Nav Pane Groups": {
+        "nav-pane-groups.json": {
+          "FileHash": "8b001dd",
+          "ExportDate": "2025-11-15T03:50:21.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "4a4b1d7"
+        }
+      },
+      "Proj Properties": {
+        "proj-properties.json": {
+          "FileHash": "d8adf56",
+          "ExportDate": "2025-11-15T03:50:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "98d0cff"
+        }
+      },
+      "Project": {
+        "project.json": {
+          "FileHash": "9fe41ad",
+          "ExportDate": "2025-11-15T03:50:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "024c63b"
+        }
+      },
+      "Tables": {
+        "CityLatLong.xml": {
+          "FileHash": "8676c83",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "d3c62fd"
+        },
+        "Currency.xml": {
+          "FileHash": "7d81ee5",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "7a741a0"
+        },
+        "Language.xml": {
+          "FileHash": "1a809bc",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "9e6729b"
+        }
+      },
+      "Themes": {
+        "Office Theme.thmx": {
+          "FileHash": "1723fc1",
+          "OtherHash": "e7d0561",
+          "ExportDate": "2025-11-15T03:50:20.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "82b02fb"
+        }
+      },
+      "VB Project": {
+        "vbe-project.json": {
+          "FileHash": "b1efc55",
+          "ExportDate": "2025-11-15T03:50:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "2ea07e7"
+        }
+      },
+      "VBE References": {
+        "vbe-references.json": {
+          "FileHash": "c38a06b",
+          "ExportDate": "2025-11-15T03:50:19.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "fd4f2f0"
+        }
+      }
+    }
+  }
+}

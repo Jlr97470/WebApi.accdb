@@ -1,0 +1,410 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    PopUp = NotDefault
+    RecordSelectors = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =7860
+    DatasheetFontHeight =11
+    ItemSuffix =37
+    Left =3225
+    Top =3030
+    Right =23310
+    Bottom =15015
+    RecSrcDt = Begin
+        0xfa7a3461d1f1e540
+    End
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =5340
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin ListBox
+                    RowSourceTypeInt =1
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =3
+                    Left =1500
+                    Top =540
+                    Width =3960
+                    Height =2100
+                    ForeColor =4210752
+                    BorderColor =10921638
+                    Name ="lstProducts"
+                    RowSourceType ="Value List"
+                    ColumnWidths ="360;2880;720"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+                    AllowValueListEdits =0
+
+                    LayoutCachedLeft =1500
+                    LayoutCachedTop =540
+                    LayoutCachedWidth =5460
+                    LayoutCachedHeight =2640
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =180
+                            Top =540
+                            Width =1200
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Col1_Label"
+                            Caption ="Products"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =180
+                            LayoutCachedTop =540
+                            LayoutCachedWidth =1380
+                            LayoutCachedHeight =855
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =6060
+                    Top =540
+                    Width =1620
+                    Height =420
+                    TabIndex =1
+                    ForeColor =4210752
+                    Name ="cmdGetProducts"
+                    Caption ="Get Products"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =6060
+                    LayoutCachedTop =540
+                    LayoutCachedWidth =7680
+                    LayoutCachedHeight =960
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                    Overlaps =1
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =180
+                    Top =2940
+                    Width =1665
+                    Height =315
+                    BorderColor =8355711
+                    ForeColor =6710886
+                    Name ="Label25"
+                    Caption ="Product"
+                    GridlineColor =10921638
+                    LayoutCachedLeft =180
+                    LayoutCachedTop =2940
+                    LayoutCachedWidth =1845
+                    LayoutCachedHeight =3255
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    Locked = NotDefault
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1320
+                    Top =3540
+                    Width =2400
+                    Height =315
+                    TabIndex =2
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtID"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1320
+                    LayoutCachedTop =3540
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =3855
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =420
+                            Top =3540
+                            Width =690
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Label27"
+                            Caption ="ID"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =420
+                            LayoutCachedTop =3540
+                            LayoutCachedWidth =1110
+                            LayoutCachedHeight =3855
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1320
+                    Top =3975
+                    Width =2400
+                    Height =315
+                    TabIndex =3
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtProductName"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1320
+                    LayoutCachedTop =3975
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =4290
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =420
+                            Top =3975
+                            Width =690
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Label29"
+                            Caption ="Name"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =420
+                            LayoutCachedTop =3975
+                            LayoutCachedWidth =1110
+                            LayoutCachedHeight =4290
+                        End
+                    End
+                End
+                Begin TextBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    Left =1320
+                    Top =4410
+                    Width =2400
+                    Height =315
+                    TabIndex =4
+                    BorderColor =10921638
+                    ForeColor =4210752
+                    Name ="txtUnitPrice"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =1320
+                    LayoutCachedTop =4410
+                    LayoutCachedWidth =3720
+                    LayoutCachedHeight =4725
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =420
+                            Top =4410
+                            Width =690
+                            Height =315
+                            BorderColor =8355711
+                            ForeColor =6710886
+                            Name ="Label31"
+                            Caption ="Price"
+                            GridlineColor =10921638
+                            LayoutCachedLeft =420
+                            LayoutCachedTop =4410
+                            LayoutCachedWidth =1110
+                            LayoutCachedHeight =4725
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4260
+                    Top =4080
+                    Width =1740
+                    Height =420
+                    TabIndex =6
+                    ForeColor =4210752
+                    Name ="cmdNewProduct"
+                    Caption ="New Product"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4260
+                    LayoutCachedTop =4080
+                    LayoutCachedWidth =6000
+                    LayoutCachedHeight =4500
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4260
+                    Top =4620
+                    Width =1740
+                    Height =420
+                    TabIndex =7
+                    ForeColor =4210752
+                    Name ="cmdDeleteProduct"
+                    Caption ="Delete Product"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4260
+                    LayoutCachedTop =4620
+                    LayoutCachedWidth =6000
+                    LayoutCachedHeight =5040
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =4260
+                    Top =3540
+                    Width =1740
+                    Height =420
+                    TabIndex =5
+                    ForeColor =4210752
+                    Name ="cmdSaveProduct"
+                    Caption ="Save Product"
+                    OnClick ="[Event Procedure]"
+                    GridlineColor =10921638
+
+                    LayoutCachedLeft =4260
+                    LayoutCachedTop =3540
+                    LayoutCachedWidth =6000
+                    LayoutCachedHeight =3960
+                    BackColor =14461583
+                    BorderColor =14461583
+                    HoverColor =15189940
+                    PressedColor =9917743
+                    HoverForeColor =4210752
+                    PressedForeColor =4210752
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =180
+                    Top =60
+                    Width =6360
+                    Height =315
+                    BorderColor =8355711
+                    ForeColor =5676533
+                    Name ="Label36"
+                    Caption ="Note: This form requires a running API.  Code may still be examined. "
+                    GridlineColor =10921638
+                    LayoutCachedLeft =180
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =6540
+                    LayoutCachedHeight =375
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "Products.cls"

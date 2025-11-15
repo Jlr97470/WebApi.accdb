@@ -1,0 +1,6 @@
+﻿CREATE TABLE [CityLatLong] (
+  [ID] AUTOINCREMENT CONSTRAINT [PrimaryKey] PRIMARY KEY UNIQUE NOT NULL,
+  [CityName] VARCHAR (255),
+  [Latitude] VARCHAR (255),
+  [Longitude] VARCHAR (255)
+)

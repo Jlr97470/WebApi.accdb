@@ -1,0 +1,382 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    PopUp = NotDefault
+    RecordSelectors = NotDefault
+    AutoCenter = NotDefault
+    NavigationButtons = NotDefault
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    BorderStyle =3
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =7913
+    DatasheetFontHeight =11
+    ItemSuffix =21
+    Left =-22126
+    Top =3030
+    Right =11009
+    Bottom =20295
+    RecSrcDt = Begin
+        0x68a90aa234f1e540
+    End
+    DatasheetFontName ="Calibri"
+    AllowDatasheetView =0
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            FontSize =11
+            FontName ="Calibri"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            FontSize =11
+            FontWeight =400
+            FontName ="Calibri"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ListBox
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Calibri"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Section
+            Height =5102
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            BackThemeColorIndex =1
+            Begin
+                Begin ListBox
+                    OverlapFlags =85
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =1140
+                    Top =570
+                    Height =2850
+                    Name ="lstCities"
+                    RowSourceType ="Table/Query"
+                    RowSource ="SELECT [CityLatLong].[ID], [CityLatLong].[CityName] FROM CityLatLong ORDER BY [C"
+                        "ityName]; "
+                    ColumnWidths ="0;1440"
+                    GroupTable =1
+                    BottomPadding =150
+
+                    LayoutCachedLeft =1140
+                    LayoutCachedTop =570
+                    LayoutCachedWidth =2580
+                    LayoutCachedHeight =3420
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =1
+                    GroupTable =1
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            TextAlign =1
+                            Left =360
+                            Top =570
+                            Width =720
+                            Height =2850
+                            Name ="CityName_Label"
+                            Caption ="City"
+                            GroupTable =1
+                            BottomPadding =150
+                            LayoutCachedLeft =360
+                            LayoutCachedTop =570
+                            LayoutCachedWidth =1080
+                            LayoutCachedHeight =3420
+                            LayoutGroup =1
+                            GroupTable =1
+                        End
+                    End
+                End
+                Begin CommandButton
+                    OverlapFlags =85
+                    Left =425
+                    Top =3921
+                    Width =2565
+                    Height =420
+                    TabIndex =1
+                    Name ="btnGetWeather"
+                    Caption ="Get Weather"
+                    OnClick ="[Event Procedure]"
+
+                    LayoutCachedLeft =425
+                    LayoutCachedTop =3921
+                    LayoutCachedWidth =2990
+                    LayoutCachedHeight =4341
+                    Overlaps =1
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =93
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =4536
+                    Top =566
+                    Width =1155
+                    Height =315
+                    TabIndex =2
+                    Name ="txtTemperature"
+                    LeftPadding =360
+                    RightPadding =360
+
+                    LayoutCachedLeft =4536
+                    LayoutCachedTop =566
+                    LayoutCachedWidth =5691
+                    LayoutCachedHeight =881
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2841
+                            Top =566
+                            Width =1680
+                            Height =315
+                            Name ="EtiTemperature"
+                            Caption ="Temperature"
+                            LayoutCachedLeft =2841
+                            LayoutCachedTop =566
+                            LayoutCachedWidth =4521
+                            LayoutCachedHeight =881
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =95
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =4512
+                    Top =1133
+                    Width =1155
+                    Height =315
+                    TabIndex =3
+                    Name ="txtWindSpeed"
+                    LeftPadding =360
+                    RightPadding =360
+
+                    LayoutCachedLeft =4512
+                    LayoutCachedTop =1133
+                    LayoutCachedWidth =5667
+                    LayoutCachedHeight =1448
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =2832
+                            Top =1133
+                            Width =1680
+                            Height =315
+                            Name ="EtiWindSpeed"
+                            Caption ="Wind Speed"
+                            LayoutCachedLeft =2832
+                            LayoutCachedTop =1133
+                            LayoutCachedWidth =4512
+                            LayoutCachedHeight =1448
+                        End
+                    End
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =95
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =4536
+                    Top =1700
+                    Width =1155
+                    Height =315
+                    TabIndex =4
+                    Name ="txtWindDirection"
+                    LeftPadding =360
+                    RightPadding =360
+
+                    LayoutCachedLeft =4536
+                    LayoutCachedTop =1700
+                    LayoutCachedWidth =5691
+                    LayoutCachedHeight =2015
+                    Begin
+                        Begin Label
+                            OverlapFlags =93
+                            Left =2841
+                            Top =1700
+                            Width =1695
+                            Height =315
+                            Name ="EtiWindDirection"
+                            Caption ="Wind Direction"
+                            LayoutCachedLeft =2841
+                            LayoutCachedTop =1700
+                            LayoutCachedWidth =4536
+                            LayoutCachedHeight =2015
+                        End
+                    End
+                End
+                Begin Label
+                    OverlapFlags =247
+                    Left =5669
+                    Top =566
+                    Width =1710
+                    Height =337
+                    TopMargin =22
+                    Name ="EtiTemperatureUnite"
+                    Caption ="C"
+                    LayoutCachedLeft =5669
+                    LayoutCachedTop =566
+                    LayoutCachedWidth =7379
+                    LayoutCachedHeight =903
+                End
+                Begin Label
+                    OverlapFlags =87
+                    Left =5669
+                    Top =1133
+                    Width =1710
+                    Height =339
+                    TopMargin =24
+                    Name ="EtiWindSpeedUnite"
+                    Caption ="KMH"
+                    LayoutCachedLeft =5669
+                    LayoutCachedTop =1133
+                    LayoutCachedWidth =7379
+                    LayoutCachedHeight =1472
+                End
+                Begin Label
+                    OverlapFlags =247
+                    Left =5669
+                    Top =1700
+                    Width =1695
+                    Height =328
+                    TopMargin =58
+                    Name ="EtiWindDirectionUnite"
+                    Caption ="Deg"
+                    LayoutCachedLeft =5669
+                    LayoutCachedTop =1700
+                    LayoutCachedWidth =7364
+                    LayoutCachedHeight =2028
+                End
+                Begin Label
+                    OverlapFlags =85
+                    Left =3410
+                    Top =3981
+                    Width =3960
+                    Height =315
+                    Name ="lblStatus"
+                    Caption ="Done"
+                    LayoutCachedLeft =3410
+                    LayoutCachedTop =3981
+                    LayoutCachedWidth =7370
+                    LayoutCachedHeight =4296
+                End
+                Begin TextBox
+                    Enabled = NotDefault
+                    OverlapFlags =85
+                    TextAlign =3
+                    IMESentenceMode =3
+                    Left =4529
+                    Top =2244
+                    Width =1155
+                    Height =315
+                    TabIndex =5
+                    Name ="txtWeatherCode"
+                    LeftPadding =360
+                    RightPadding =360
+
+                    LayoutCachedLeft =4529
+                    LayoutCachedTop =2244
+                    LayoutCachedWidth =5684
+                    LayoutCachedHeight =2559
+                    Begin
+                        Begin Label
+                            OverlapFlags =85
+                            Left =2834
+                            Top =2244
+                            Width =1680
+                            Height =315
+                            Name ="EtiWeatherCode"
+                            Caption ="Weather Code"
+                            LayoutCachedLeft =2834
+                            LayoutCachedTop =2244
+                            LayoutCachedWidth =4514
+                            LayoutCachedHeight =2559
+                        End
+                    End
+                End
+            End
+        End
+    End
+End
+CodeBehindForm
+' See "CityWeather.cls"
