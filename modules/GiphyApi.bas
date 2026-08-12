@@ -15,7 +15,7 @@ Function GetGiphyApi(ByVal StrBundle As String) As Dictionary
 
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httpget
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
     With webRequest
         .AddQuerystringParam "api_key", GIPHY_KEY
         .AddQuerystringParam "bundle", "sticker_layering"

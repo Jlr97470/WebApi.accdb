@@ -16,8 +16,8 @@ Function GetActorApiNET(ByVal StrAction As String, ByRef StrName() As String, By
 
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httppost
-    webRequest.Format = WebFormat.Json
-    webRequest.ResponseFormat = Json
+    webRequest.Format = WebFormat.json
+    webRequest.ResponseFormat = json
 
     With webRequest
         .AddBodyParameter "action", StrAction

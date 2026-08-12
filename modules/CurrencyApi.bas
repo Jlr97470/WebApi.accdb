@@ -13,7 +13,7 @@ Function GetConvertCurrencyApi(ByVal FromCurrency As String, ByVal ToCurrency As
 
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httpget
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
     With webRequest
         .AddQuerystringParam "from", FromCurrency
         .AddQuerystringParam "to", ToCurrency

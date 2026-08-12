@@ -16,11 +16,11 @@ Function GetChatGPTApi(ByVal StrMessage As String) As Dictionary
 
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httppost
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
 
     webRequest.AddHeader "Authorization", "Bearer " & CHATGPT_KEY
 
-    webRequest.AddBodyParameter "model", "gpt-5"
+    webRequest.AddBodyParameter "model", "gpt-5.6"
 
     DicMes1.Add "role", "user"
 

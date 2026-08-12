@@ -28,7 +28,7 @@ Private Sub btnSend_Click()
 
     If Not DicResult Is Nothing Then
 
-        Me.TxtReponse.Value = Utf2Uni(DicResult("choices")(1)("message")("content"))
+        Me.TxtReponse.Value = DicResult("choices")(1)("message")("content")
 
         Me.TxtQuestion.Value = ""
 

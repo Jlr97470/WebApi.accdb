@@ -14,7 +14,7 @@ Function GetLanguageApi(ByVal StrQ As String, ByVal FromLanguage As String, ByVa
 
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httppost
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
     With webRequest
         .AddQuerystringParam "q", StrQ
         .AddQuerystringParam "target", ToLanguage

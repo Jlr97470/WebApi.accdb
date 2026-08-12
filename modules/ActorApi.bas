@@ -17,7 +17,7 @@ Function GetActorApi(ByVal StrAction As String, ByRef StrName() As String, ByRef
     webRequest.Resource = ""
     webRequest.Method = WebMethod.Httppost
     webRequest.Format = WebFormat.FormUrlEncoded
-    webRequest.ResponseFormat = Json
+    webRequest.ResponseFormat = json
 
     With webRequest
         .AddBodyParameter "action", StrAction

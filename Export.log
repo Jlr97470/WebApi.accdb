@@ -5,7 +5,7 @@ VCS Version 4.1.2
 Full Path: D:\MES_SOURCES\ACCESS\SOURCES\DELTAINFORMATIQUE\ACCESS_2007-2016\WEBAPI\WebApi.accdb
 Export Folder: D:\MES_SOURCES\GITHUB\WebApi.accdb\
 Performing Full Export
-15/11/2025 07:50:19
+12/08/2026 23:10:06
 -------------------------------------
 Scanning source files...
 No db connections found in this database.
@@ -36,7 +36,7 @@ Exporting vbe references...
 -------------------------------------
 Exporting proj properties...  
   Current Project Properties (Access)
-[1]
+[2]
 -------------------------------------
 Exporting modules...          
   WebResponse
@@ -66,33 +66,33 @@ Exporting db properties...
 -------------------------------------
 Exporting tables...           
   CityLatLong
-    Sanitized in 0,003 seconds.
+    Sanitized in 0,002 seconds.
   CityLatLong (SQL)
   Currency
-    Sanitized in 0,002 seconds.
+    Sanitized in 0,001 seconds.
   Currency (SQL)
   Language
-    Sanitized in 0,002 seconds.
+    Sanitized in 0,001 seconds.
   Language (SQL)
 [3]
 -------------------------------------
 Exporting forms...            
   CityWeather
-    Sanitized in 0,011 seconds.
+    Sanitized in 0,004 seconds.
   Giphy
-    Sanitized in 0,008 seconds.
+    Sanitized in 0,003 seconds.
   Products
-    Sanitized in 0,011 seconds.
+    Sanitized in 0,004 seconds.
   Actor
-    Sanitized in 0,014 seconds.
+    Sanitized in 0,005 seconds.
   ChatGPT
-    Sanitized in 0,006 seconds.
+    Sanitized in 0,002 seconds.
   Currency
-    Sanitized in 0,008 seconds.
+    Sanitized in 0,003 seconds.
   ActorNET
-    Sanitized in 0,014 seconds.
+    Sanitized in 0,005 seconds.
   Language
-    Sanitized in 0,007 seconds.
+    Sanitized in 0,003 seconds.
 [8]
 -------------------------------------
 Exporting doc properties...   
@@ -102,76 +102,80 @@ Exporting doc properties...
 Exporting nav pane groups...  
   Groups
 [1]
+Added default .gitignore file
 -------------------------------------
-Done. (2,53 seconds)
+Done. (0,88 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Forms                         8         0,90
-Modules                       15        0,43
-DB Properties                 49        0,21
-Tables                        3         0,13
-Doc Properties                2         0,09
-Project                       1         0,09
-VBE References                5         0,08
-Nav Pane Groups               1         0,08
-CommandBars                   0         0,07
-DB Connections                0         0,07
-Proj Properties               1         0,06
-Themes                        1         0,06
-VB Project                    1         0,05
-Hidden Attributes             0         0,01
-Shared Images                 0         0,01
-Relations                     0         0,00
+Forms                         8         0,29
+Modules                       15        0,13
+DB Properties                 49        0,07
+Tables                        3         0,05
+Project                       1         0,03
+Doc Properties                2         0,03
+Nav Pane Groups               1         0,03
+VBE References                5         0,02
+Themes                        1         0,02
+VB Project                    1         0,02
+Proj Properties               2         0,02
+DB Connections                0         0,01
+Hidden Attributes             0         0,00
+Shared Images                 0         0,00
 Table Data Macros             0         0,00
+Relations                     0         0,00
 IMEX Specs                    0         0,00
+Queries                       0         0,00
+CommandBars                   0         0,00
 Table Data                    0         0,00
 VBE Forms                     0         0,00
-Saved Specs                   0         0,00
-Queries                       0         0,00
-Macros                        0         0,00
 Reports                       0         0,00
+Macros                        0         0,00
+Saved Specs                   0         0,00
 --------------------------------------------------
-TOTALS:                       87        2,34
+TOTALS:                       88        0,74
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Increment Progress            68        0,53
-Convert to JSON               687       0,29
-Scan DB Objects               1         0,25
-Console Updates               4         0,13
-Export VBE Module             15        0,10
-Sanitize File                 8         0,08
-App.SaveAsText()              8         0,08
-Read File Bytes               27        0,08
-Write File                    46        0,04
-App.ExportXML()               3         0,04
-Get File Property Hash        34        0,02
-modFileAccess.VerifyPath      58        0,02
-Read File DevMode             8         0,02
-Sanitize VBA Code             23        0,02
-Get VBA Hash                  23        0,02
-Compute SHA256                109       0,02
-Delete File                   27        0,02
-Read File                     26        0,01
-Get Modified Date             63        0,01
-Quick Count Objects           1         0,01
-Quick Count Files             1         0,01
+Increment Progress            108       0,17
+Convert to JSON               689       0,09
+Scan DB Objects               1         0,07
+Console Updates               3         0,04
+Export VBE Module             15        0,03
+App.SaveAsText()              8         0,03
+Sanitize File                 8         0,03
+Read File Bytes               27        0,02
+Get File Property Hash        68        0,02
+App.ExportXML()               3         0,01
+Write File                    46        0,01
+Clear Orphaned Files          13        0,01
+Compute SHA256                143       0,01
+Read File DevMode             8         0,01
+Get VBA Hash                  23        0,01
+Sanitize VBA Code             23        0,01
+Delete File                   36        0,01
+Read File                     27        0,00
+modFileAccess.VerifyPath      58        0,00
+Parse JSON                    1         0,00
+Quick Count Files             1         0,00
+Clear Files by Ext            6         0,00
+Quick Count Objects           1         0,00
+Get Modified Date             63        0,00
 Save Table SQL                3         0,00
 Sanitize XML                  3         0,00
-Check for linked table        3         0,00
 Format XML                    3         0,00
+Check for linked table        3         0,00
+Parse JSON ISO Date           36        0,00
 Close Open Objects            1         0,00
 Export Theme                  1         0,00
-Clear Files by Ext            6         0,00
 modFileAccess.GetUncPath      2         0,00
 --------------------------------------------------
-Other Operations                        0,73
+Other Operations                        0,28
 --------------------------------------------------
 
 

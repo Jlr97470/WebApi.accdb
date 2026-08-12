@@ -4,6 +4,7 @@
     "Description": "Project Properties (Access)"
   },
   "Items": {
-    "VCS Build Path": "D:\\MES_SOURCES\\ACCESS\\SOURCES\\DELTAINFORMATIQUE\\ACCESS_2007-2016\\WEBAPI"
+    "VCS Build Path": "D:\\MES_SOURCES\\ACCESS\\SOURCES\\DELTAINFORMATIQUE\\ACCESS_2007-2016\\WEBAPI",
+    "VCS Source Path": "D:\\MES_SOURCES\\GITHUB\\%dbname%"
   }
 }

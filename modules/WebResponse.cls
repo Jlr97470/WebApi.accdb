@@ -134,11 +134,24 @@ End Sub
 ' @throws 11030 / 80042b16 / -2147210474 - Error creating from http
 ''
 Public Sub CreateFromHttp(client As webClient, request As webRequest, Http As Object)
+    Dim stream As Object
     On Error GoTo web_ErrorHandling
 
     Me.StatusCode = Http.Status
     Me.StatusDescription = Http.StatusText
-    Me.Content = Http.ResponseText
+
+    Set stream = CreateObject("ADODB.Stream")
+    stream.Type = 1 ' Binary
+    stream.Open
+    stream.Write Http.ResponseBody
+    stream.Position = 0
+
+   ' Changement du type pour décoder en texte UTF-8
+    stream.Type = 2 ' Text
+    stream.Charset = "utf-8"
+    Me.Content = stream.ReadText
+
+    'Me.Content = Http.ResponseText
     Me.Body = Http.ResponseBody
 
     web_LoadValues Http.GetAllResponseHeaders, Me.Content, Me.Body, request

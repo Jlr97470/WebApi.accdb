@@ -13,7 +13,7 @@ Function GetWeatherFromApi(ByVal latitude As String, ByVal longitude As String) 
 
     webRequest.Resource = "forecast"
     webRequest.Method = WebMethod.Httpget
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
     With webRequest
         .AddQuerystringParam "latitude", latitude
         .AddQuerystringParam "longitude", longitude

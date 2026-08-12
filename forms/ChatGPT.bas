@@ -19,10 +19,10 @@ Begin Form
     Width =7937
     DatasheetFontHeight =11
     ItemSuffix =8
-    Left =-31726
-    Top =1335
-    Right =-19831
-    Bottom =16695
+    Left =-12031
+    Top =4455
+    Right =-4096
+    Bottom =11250
     RecSrcDt = Begin
         0xb9f2a7a2ce14e640
     End
@@ -133,10 +133,7 @@ Begin Form
                     Top =1133
                     Width =6246
                     Height =1695
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TxtQuestion"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =566
                     LayoutCachedTop =1133
@@ -149,11 +146,8 @@ Begin Form
                             Top =566
                             Width =1150
                             Height =315
-                            BorderColor =8355711
-                            ForeColor =6710886
                             Name ="TxtQuestion_Étiquette"
                             Caption ="Question"
-                            GridlineColor =10921638
                             LayoutCachedLeft =566
                             LayoutCachedTop =566
                             LayoutCachedWidth =1716
@@ -172,10 +166,7 @@ Begin Form
                     Width =6246
                     Height =1530
                     TabIndex =1
-                    BorderColor =10921638
-                    ForeColor =4210752
                     Name ="TxtReponse"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =566
                     LayoutCachedTop =3968
@@ -188,11 +179,8 @@ Begin Form
                             Top =3401
                             Width =1125
                             Height =315
-                            BorderColor =8355711
-                            ForeColor =6710886
                             Name ="TxtReponse_Étiquette"
                             Caption ="Reponse"
-                            GridlineColor =10921638
                             LayoutCachedLeft =566
                             LayoutCachedTop =3401
                             LayoutCachedWidth =1691
@@ -207,22 +195,14 @@ Begin Form
                     Width =2580
                     Height =420
                     TabIndex =2
-                    ForeColor =4210752
                     Name ="btnSend"
                     Caption ="Envoyer"
                     OnClick ="[Event Procedure]"
-                    GridlineColor =10921638
 
                     LayoutCachedLeft =566
                     LayoutCachedTop =5839
                     LayoutCachedWidth =3146
                     LayoutCachedHeight =6259
-                    BackColor =14461583
-                    BorderColor =14461583
-                    HoverColor =15189940
-                    PressedColor =9917743
-                    HoverForeColor =4210752
-                    PressedForeColor =4210752
                 End
                 Begin Label
                     OverlapFlags =85
@@ -230,11 +210,8 @@ Begin Form
                     Top =5899
                     Width =3810
                     Height =315
-                    BorderColor =8355711
-                    ForeColor =6710886
                     Name ="lblStatus"
                     Caption ="Done"
-                    GridlineColor =10921638
                     LayoutCachedLeft =3551
                     LayoutCachedTop =5899
                     LayoutCachedWidth =7361

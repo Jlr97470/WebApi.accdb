@@ -13,7 +13,7 @@ Function GetProductListFromApi() As Object
     Dim webRequest As New webRequest
     webRequest.Resource = "/Api/ProductsApi/"
     webRequest.Method = WebMethod.Httpget
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
 
     Dim webResponse As webResponse
     Set webResponse = webClient.Execute(webRequest)
@@ -40,7 +40,7 @@ Function GetProductFromApi(ByVal productID As Integer) As Dictionary
     Dim webRequest As New webRequest
     webRequest.Resource = "Api/ProductsApi/"
     webRequest.Method = WebMethod.Httpget
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
 
     webRequest.AddQuerystringParam "ID", productID
 
@@ -72,7 +72,7 @@ Function UpdateProductFromAPI(ByVal productID As Integer, ByVal productName As S
     Dim webRequest As New webRequest
     webRequest.Resource = "Api/ProductsApi/"
     webRequest.Method = WebMethod.Httpput
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
 
     webRequest.AddQuerystringParam "ID", productID
 
@@ -105,7 +105,7 @@ Function CreateProductFromAPI(ByVal productName As String, ByVal unitPrice As Cu
     Dim webRequest As New webRequest
     webRequest.Resource = "Api/ProductsApi/"
     webRequest.Method = WebMethod.Httppost
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
 
     webRequest.AddBodyParameter "ProductName", productName
     webRequest.AddBodyParameter "UnitPrice", unitPrice
@@ -135,7 +135,7 @@ Function DeleteProductFromAPI(ByVal productID As Integer) As Object
     Dim webRequest As New webRequest
     webRequest.Resource = "Api/ProductsApi/"
     webRequest.Method = WebMethod.HttpDelete
-    webRequest.Format = WebFormat.Json
+    webRequest.Format = WebFormat.json
     webRequest.AddQuerystringParam "ID", productID
 
     Dim webResponse As webResponse
