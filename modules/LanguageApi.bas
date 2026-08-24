@@ -2,7 +2,7 @@
 Option Compare Database
 Option Explicit
 
-Private Const GOOGLEAPI_KEY = "AIzaSyCYR34bQbnLkwNAegcnpIlUnHbYnJteyrE"
+Private Const GOOGLEAPI_KEY = ""
 
 Function GetLanguageApi(ByVal StrQ As String, ByVal FromLanguage As String, ByVal ToLanguage As String) As Dictionary
     Dim webClient As New webClient
