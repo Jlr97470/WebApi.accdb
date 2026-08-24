@@ -19,10 +19,10 @@ Begin Form
     Width =7937
     DatasheetFontHeight =11
     ItemSuffix =8
-    Left =-31726
-    Top =1335
-    Right =-19831
-    Bottom =16695
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0xb9f2a7a2ce14e640
     End
@@ -119,7 +119,7 @@ Begin Form
             GridlineShade =65.0
         End
         Begin Section
-            Height =6803
+            Height =4535
             Name ="Détail"
             AlternateBackThemeColorIndex =1
             AlternateBackShade =95.0
@@ -130,39 +130,39 @@ Begin Form
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =2880
-                    Left =5105
-                    Top =566
+                    Left =5101
+                    Top =793
                     Width =1686
                     Height =315
                     BorderColor =10921638
                     ForeColor =3484194
-                    Name ="CmbFromLanguageName"
+                    Name ="CmbFromCurrencyName"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT Language.LanguageCode, Language.LanguageLabel FROM [Language] ORDER BY La"
-                        "nguage.LanguageCode; "
+                    RowSource ="SELECT [Currency].[CurrencyName], Currency.[CurrencyLabel] FROM [Currency] ORDER"
+                        " BY [CurrencyName]; "
                     ColumnWidths ="1441;1441"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =5105
-                    LayoutCachedTop =566
-                    LayoutCachedWidth =6791
-                    LayoutCachedHeight =881
+                    LayoutCachedLeft =5101
+                    LayoutCachedTop =793
+                    LayoutCachedWidth =6787
+                    LayoutCachedHeight =1108
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =2834
-                            Top =566
+                            Left =2830
+                            Top =793
                             Width =2295
                             Height =320
                             BorderColor =8355711
                             ForeColor =6710886
-                            Name ="CmbFromLanguageName_Étiquette"
-                            Caption ="From Language Name"
+                            Name ="CmbFromCurrencyName_Étiquette"
+                            Caption ="From Currency Name"
                             GridlineColor =10921638
-                            LayoutCachedLeft =2834
-                            LayoutCachedTop =566
-                            LayoutCachedWidth =5129
-                            LayoutCachedHeight =886
+                            LayoutCachedLeft =2830
+                            LayoutCachedTop =793
+                            LayoutCachedWidth =5125
+                            LayoutCachedHeight =1113
                         End
                     End
                 End
@@ -172,124 +172,124 @@ Begin Form
                     IMESentenceMode =3
                     ColumnCount =2
                     ListWidth =2880
-                    Left =5120
-                    Top =3401
+                    Left =5107
+                    Top =2267
                     Width =1686
                     Height =315
                     TabIndex =1
                     BorderColor =10921638
                     ForeColor =3484194
-                    Name ="CmbToLanguageName"
+                    Name ="CmbToCurrencyName"
                     RowSourceType ="Table/Query"
-                    RowSource ="SELECT Language.LanguageCode, Language.LanguageLabel FROM [Language] ORDER BY La"
-                        "nguage.LanguageCode; "
+                    RowSource ="SELECT [Currency].[CurrencyName], Currency.[CurrencyLabel] FROM [Currency] ORDER"
+                        " BY [CurrencyName]; "
                     ColumnWidths ="1442;1442"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =5120
-                    LayoutCachedTop =3401
-                    LayoutCachedWidth =6806
-                    LayoutCachedHeight =3716
+                    LayoutCachedLeft =5107
+                    LayoutCachedTop =2267
+                    LayoutCachedWidth =6793
+                    LayoutCachedHeight =2582
                     Begin
                         Begin Label
                             OverlapFlags =93
-                            Left =2834
-                            Top =3401
+                            Left =2821
+                            Top =2267
                             Width =2310
                             Height =320
                             BorderColor =8355711
                             ForeColor =6710886
-                            Name ="CmbToLanguageName_Étiquette"
-                            Caption ="To Language Name"
+                            Name ="CmbToCurrencyName_Étiquette"
+                            Caption ="To Currency Name"
                             GridlineColor =10921638
-                            LayoutCachedLeft =2834
-                            LayoutCachedTop =3401
-                            LayoutCachedWidth =5144
-                            LayoutCachedHeight =3721
+                            LayoutCachedLeft =2821
+                            LayoutCachedTop =2267
+                            LayoutCachedWidth =5131
+                            LayoutCachedHeight =2587
                         End
                     End
                 End
                 Begin TextBox
-                    ScrollBars =2
-                    OverlapFlags =85
+                    OverlapFlags =215
                     IMESentenceMode =3
-                    Left =566
-                    Top =1133
-                    Width =6246
-                    Height =1695
+                    Left =1712
+                    Top =793
+                    Width =1131
+                    Height =315
                     TabIndex =2
                     BorderColor =10921638
                     ForeColor =4210752
-                    Name ="TxtLanguage"
+                    Name ="TxtCurrency"
+                    Format ="General Number"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =566
-                    LayoutCachedTop =1133
-                    LayoutCachedWidth =6812
-                    LayoutCachedHeight =2828
+                    LayoutCachedLeft =1712
+                    LayoutCachedTop =793
+                    LayoutCachedWidth =2843
+                    LayoutCachedHeight =1108
                     Begin
                         Begin Label
-                            OverlapFlags =85
+                            OverlapFlags =93
                             Left =566
-                            Top =566
+                            Top =793
                             Width =1150
                             Height =315
                             BorderColor =8355711
                             ForeColor =6710886
-                            Name ="TxtLanguage_Étiquette"
-                            Caption ="Language"
+                            Name ="TxtCurrency_Étiquette"
+                            Caption ="Currency"
                             GridlineColor =10921638
                             LayoutCachedLeft =566
-                            LayoutCachedTop =566
+                            LayoutCachedTop =793
                             LayoutCachedWidth =1716
-                            LayoutCachedHeight =881
+                            LayoutCachedHeight =1108
                         End
                     End
                 End
                 Begin TextBox
                     Enabled = NotDefault
                     Locked = NotDefault
-                    ScrollBars =2
-                    OverlapFlags =85
+                    OverlapFlags =215
                     FilterLookup =0
                     IMESentenceMode =3
-                    Left =566
-                    Top =3968
-                    Width =6246
-                    Height =1530
+                    Left =1712
+                    Top =2267
+                    Width =1131
+                    Height =315
                     TabIndex =3
                     BorderColor =10921638
                     ForeColor =4210752
-                    Name ="TxtLanguageC"
+                    Name ="TxtCurrencyC"
+                    Format ="General Number"
                     GridlineColor =10921638
 
-                    LayoutCachedLeft =566
-                    LayoutCachedTop =3968
-                    LayoutCachedWidth =6812
-                    LayoutCachedHeight =5498
+                    LayoutCachedLeft =1712
+                    LayoutCachedTop =2267
+                    LayoutCachedWidth =2843
+                    LayoutCachedHeight =2582
                     Begin
                         Begin Label
-                            OverlapFlags =85
+                            OverlapFlags =93
                             Left =566
-                            Top =3401
-                            Width =1125
+                            Top =2267
+                            Width =1150
                             Height =315
                             BorderColor =8355711
                             ForeColor =6710886
-                            Name ="TxtLanguageC_Étiquette"
-                            Caption ="Language C."
+                            Name ="TxtCurrencyC_Étiquette"
+                            Caption ="Currency C."
                             GridlineColor =10921638
                             LayoutCachedLeft =566
-                            LayoutCachedTop =3401
-                            LayoutCachedWidth =1691
-                            LayoutCachedHeight =3716
+                            LayoutCachedTop =2267
+                            LayoutCachedWidth =1716
+                            LayoutCachedHeight =2582
                         End
                     End
                 End
                 Begin CommandButton
                     OverlapFlags =85
                     Left =566
-                    Top =5839
+                    Top =3401
                     Width =2580
                     Height =420
                     TabIndex =4
@@ -300,9 +300,9 @@ Begin Form
                     GridlineColor =10921638
 
                     LayoutCachedLeft =566
-                    LayoutCachedTop =5839
+                    LayoutCachedTop =3401
                     LayoutCachedWidth =3146
-                    LayoutCachedHeight =6259
+                    LayoutCachedHeight =3821
                     BackColor =14461583
                     BorderColor =14461583
                     HoverColor =15189940
@@ -313,7 +313,7 @@ Begin Form
                 Begin Label
                     OverlapFlags =85
                     Left =3551
-                    Top =5899
+                    Top =3461
                     Width =3810
                     Height =315
                     BorderColor =8355711
@@ -322,13 +322,13 @@ Begin Form
                     Caption ="Done"
                     GridlineColor =10921638
                     LayoutCachedLeft =3551
-                    LayoutCachedTop =5899
+                    LayoutCachedTop =3461
                     LayoutCachedWidth =7361
-                    LayoutCachedHeight =6214
+                    LayoutCachedHeight =3776
                 End
             End
         End
     End
 End
 CodeBehindForm
-' See "Language.cls"
+' See "Currency.cls"

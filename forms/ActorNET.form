@@ -12,17 +12,16 @@ Begin Form
     AllowDesignChanges = NotDefault
     DefaultView =0
     ScrollBars =0
-    BorderStyle =3
     PictureAlignment =2
     DatasheetGridlinesBehavior =3
     GridY =10
     Width =9637
     DatasheetFontHeight =11
     ItemSuffix =32
-    Left =-31726
-    Top =1335
-    Right =-8191
-    Bottom =16695
+    Left =1000
+    Top =1000
+    Right =50000
+    Bottom =50000
     RecSrcDt = Begin
         0xb9f2a7a2ce14e640
     End
@@ -535,7 +534,6 @@ Begin Form
                     PressedForeColor =4210752
                 End
                 Begin TextBox
-                    Locked = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
                     BackStyle =0
@@ -559,37 +557,35 @@ Begin Form
                     ForeTint =60.0
                 End
                 Begin TextBox
-                    Locked = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
                     BackStyle =0
                     IMESentenceMode =3
                     Left =3571
-                    Top =7200
+                    Top =7256
                     Width =5520
-                    Height =630
+                    Height =615
                     TabIndex =13
                     ForeColor =6710886
                     Name ="lblStatusUpdate"
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3571
-                    LayoutCachedTop =7200
+                    LayoutCachedTop =7256
                     LayoutCachedWidth =9091
-                    LayoutCachedHeight =7830
+                    LayoutCachedHeight =7871
                     BorderThemeColorIndex =0
                     BorderTint =50.0
                     BorderShade =100.0
                     ForeTint =60.0
                 End
                 Begin TextBox
-                    Locked = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
                     BackStyle =0
                     IMESentenceMode =3
                     Left =3571
-                    Top =8730
+                    Top =8674
                     Width =5520
                     Height =615
                     TabIndex =14
@@ -598,16 +594,15 @@ Begin Form
                     GridlineColor =10921638
 
                     LayoutCachedLeft =3571
-                    LayoutCachedTop =8730
+                    LayoutCachedTop =8674
                     LayoutCachedWidth =9091
-                    LayoutCachedHeight =9345
+                    LayoutCachedHeight =9289
                     BorderThemeColorIndex =0
                     BorderTint =50.0
                     BorderShade =100.0
                     ForeTint =60.0
                 End
                 Begin TextBox
-                    Locked = NotDefault
                     ScrollBars =2
                     OverlapFlags =85
                     BackStyle =0
@@ -615,7 +610,7 @@ Begin Form
                     Left =3571
                     Top =9524
                     Width =5520
-                    Height =615
+                    Height =630
                     TabIndex =15
                     ForeColor =6710886
                     Name ="lblStatusDelete"
@@ -624,7 +619,7 @@ Begin Form
                     LayoutCachedLeft =3571
                     LayoutCachedTop =9524
                     LayoutCachedWidth =9091
-                    LayoutCachedHeight =10139
+                    LayoutCachedHeight =10154
                     BorderThemeColorIndex =0
                     BorderTint =50.0
                     BorderShade =100.0
@@ -635,4 +630,4 @@ Begin Form
     End
 End
 CodeBehindForm
-' See "Actor.cls"
+' See "ActorNET.cls"

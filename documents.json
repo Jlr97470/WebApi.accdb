@@ -6,8 +6,14 @@
   "Items": {
     "Databases": {
       "SummaryInfo": {
-        "Author": "George Young (Dawson Butte)",
-        "Title": "RestApis"
+        "Author": {
+          "Type": 10,
+          "Value": "George Young (Dawson Butte)"
+        },
+        "Title": {
+          "Type": 10,
+          "Value": "RestApis"
+        }
       }
     }
   }
