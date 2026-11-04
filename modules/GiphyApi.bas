@@ -3,7 +3,7 @@ Option Compare Database
 Option Explicit
 
 
-Private Const GIPHY_KEY = ""
+Private Const GIPHY_KEY = "8"
 
 Function GetGiphyApi(ByVal StrBundle As String) As Dictionary
     Dim webClient As New webClient
